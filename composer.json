@@ -28,7 +28,8 @@
 	"require": {
 		"php": "^7.4",
 		"ext-pcov": "*",
-		"ext-soap": "*"
+		"ext-soap": "*",
+		"symfony/console": "^5"
 	},
 	"require-dev": {
 		"ext-xdebug": "*",
