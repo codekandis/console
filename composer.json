@@ -1,0 +1,52 @@
+{
+	"name": "codekandis/console",
+	"description": "`codekandis/console` is a library providing enhancements for `symfony/console`.",
+	"keywords": [
+		"php",
+		"library",
+		"symfony",
+		"console",
+		"enhancements"
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Christian Ramelow",
+			"email": "info@codekandis.net",
+			"homepage": "https://codekandis.net",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@codekandis.net",
+		"issues": "https://github.com/codekandis/console/issues",
+		"docs": "https://github.com/codekandis/console/README.md",
+		"source": "https://github.com/codekandis/console/tree/master"
+	},
+	"require": {
+		"php": "^7.4",
+		"ext-pcov": "*",
+		"ext-soap": "*"
+	},
+	"require-dev": {
+		"ext-xdebug": "*",
+		"roave/security-advisories": "dev-master",
+		"codekandis/phpunit": "^3"
+	},
+	"autoload": {
+		"psr-4": {
+			"CodeKandis\\Console\\": [
+				"src/"
+			]
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"CodeKandis\\Console\\Tests\\": [
+				"tests/"
+			]
+		}
+	}
+}
