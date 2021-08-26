@@ -3,6 +3,7 @@ namespace CodeKandis\Console\Commands;
 
 use Countable;
 use Iterator;
+use Symfony\Component\Console\Command\Command;
 
 /**
  * Represents the interface of any command collection.
@@ -19,7 +20,7 @@ interface CommandCollectionInterface extends Countable, Iterator
 
 	/**
 	 * Gets the current command.
-	 * @return mixed The current command.
+	 * @return Command The current command.
 	 */
 	public function current();
 

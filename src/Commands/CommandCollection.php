@@ -95,7 +95,7 @@ class CommandCollection implements CommandCollectionInterface
 	{
 		foreach ( $commands as $command )
 		{
-			if ( true === in_array( $command, $this->commands ) )
+			if ( true === in_array( $command, $this->commands, true ) )
 			{
 				throw new CommandExistsException( static::ERROR_COMMAND_EXISTS );
 			}
