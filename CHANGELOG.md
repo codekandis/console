@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.1.1] - 2021-08-26
+
+### Fixed
+
+* PHPDoc in the command collection interface
+* strict type check in the command collection
+
+[0.1.1]: https://github.com/codekandis/console/compare/0.1.0..0.1.1
+
+---
 ## [0.1.0] - 2021-07-12
 
 ### Added
