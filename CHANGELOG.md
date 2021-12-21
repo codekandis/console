@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.2.0] - 2021-12-21
+
+### Added
+
+* as constants configurable command options and comman arguments.
+
+[0.2.0]: https://github.com/codekandis/console/compare/0.1.2..0.2.0
+
+---
 ## [0.1.2] - 2021-11-08
 
 ### Changed
